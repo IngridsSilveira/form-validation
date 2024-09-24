@@ -46,9 +46,13 @@ function App() {
   };
 
   return (
-    <div className="font-mono font-bold h-screen w-full flex items-center justify-center bg-slate-200">
+    <div className="font-mono font-bold h-screen w-full flex items-center justify-center bg-slate-300">
+
+      <div className="bg-f-background bg-cover bg-center bg-no-repeat w-80 h-80 p-3 rounded-l-md shadow-lg">
+      </div>
+
       <form
-        className="flex flex-col w-80 h-80 p-3 bg-slate-100 rounded shadow"
+        className="flex flex-col w-80 h-80 p-3 bg-slate-100 rounded-r-md shadow-lg"
         action="#"
       >
         <h1 className="text-xl text-center">Form Login</h1>
