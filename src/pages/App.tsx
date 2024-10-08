@@ -67,6 +67,7 @@ function App() {
 
     // Tudo validado
     alert("Form submitted successfully");
+    clearError(inputName, "Enter your name");
     setName("");
     setEmail("");
     setPassword("");
