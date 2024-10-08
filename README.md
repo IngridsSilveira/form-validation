@@ -3,13 +3,13 @@
 # Form Validation
 Uma aplicação que valida e coleta dados de um formulário, incluindo campos obrigatórios e controle de entradas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔨 Nova Funcionalidade
+O projeto de validação de formulário foi atualizado para integrar uma chamada a uma API externa, o que permite validar as informações dos usuários, como nome, e-mail e senha, em tempo real. Faz uma requisição POST para a API jsonplaceholder.typicode.com/users, e os dados fornecidos pelo usuário são comparados com os retornados pela API. Se houver discrepâncias nas informações, o formulário exibe mensagens de erro específicas e orienta o usuário a corrigir os dados antes de permitir o envio.
 
 ## 🔥 Introdução
 * Validação de senha com mínimo de 6 caracteres.
 
-* Verificação de campos obrigatórios.
-Feedback ao usuário em caso de erro de preenchimento.
+* Verificação de campos obrigatórios, dando feedback ao usuário em caso de erro de preenchimento.
 
 ### 🔨 Guia de instalação
 Instalação:
